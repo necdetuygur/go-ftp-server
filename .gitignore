@@ -1,1 +1,4 @@
 ftpserver
+dist/
+go-ftp-server-linux-amd64
+go-ftp-server-windows-amd64.exe
