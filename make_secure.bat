@@ -6,6 +6,8 @@ echo =====================================
 powershell -ExecutionPolicy Bypass -Command ^
 Unblock-File "%CD%\go-ftp-server-windows-amd64.exe"
 
+powershell -NoProfile -ExecutionPolicy Bypass -Command "Unblock-File -Path '.\go-ftp-server-windows-amd64.exe'"
+
 echo.
 echo =====================================
 echo Adding Defender Exclusions...
